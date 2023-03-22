@@ -42,7 +42,7 @@ export default class Sketch {
     this.mouse = new THREE.Vector2();
     this.mouseTarget = new THREE.Vector2();
     this.time = 0;
-    this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+    // this.controls = new OrbitControls(this.camera, this.renderer.domElement);
 
     this.initPost();
     this.addMesh();
